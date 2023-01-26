@@ -67,3 +67,11 @@ document.addEventListener('DOMContentLoaded', () => {
     header.classList.toggle("sticky",window.scrollY > 0);
   })
 });
+
+// Intégrer l'animation dans le site
+const animation = document.querySelector('.corps');
+
+window.addEventListener('load', () => {
+  animation.classList.add("fondu-out");
+});
+//(window).load(function(){ jQuery(".corps").fadeOut("200"); });
