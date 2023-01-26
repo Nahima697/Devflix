@@ -9,11 +9,11 @@
   @import url("https://fonts.googleapis.com/css?family=Roboto:700,900");
   
   .corps{
-    background: radial-gradient(#fff, #aaa);
+    opacity :0.4 ;
     background-size: 100vw 100vh;
     overflow: hidden;
     padding-top: 40vh;
-    position: absolute;
+   
    
   }
   
@@ -61,7 +61,4 @@
       opacity: 0;
     }
   }
-
-  .fondu-out {
-  display: none;
-  }
+ 

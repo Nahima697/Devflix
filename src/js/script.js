@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Intégrer l'animation dans le site
-const b = document.body;
+let b = document.body;
 let corps = document.querySelector('.corps')
 
 
