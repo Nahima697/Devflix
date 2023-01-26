@@ -63,3 +63,11 @@ document.addEventListener('DOMContentLoaded', () => {
     sidenav.classList.remove("active");
   }
 });
+
+// Intégrer l'animation dans le site
+const animation = document.querySelector('.corps');
+
+window.addEventListener('load', () => {
+  animation.classList.add("fondu-out");
+});
+//(window).load(function(){ jQuery(".corps").fadeOut("200"); });

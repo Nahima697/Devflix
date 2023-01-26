@@ -8,11 +8,15 @@
   
   @import url("https://fonts.googleapis.com/css?family=Roboto:700,900");
   
-  body {
+  .corps{
     background: radial-gradient(#fff, #aaa);
     background-size: 100vw 100vh;
     overflow: hidden;
     padding-top: 40vh;
+    position: absolute;
+    z-index: 4;
+    width: 100vh;
+    height: 100vh;
   }
   
   .txt {
@@ -58,4 +62,8 @@
     100% {
       opacity: 0;
     }
+  }
+
+  .fondu-out {
+    visibility : hidden;
   }
