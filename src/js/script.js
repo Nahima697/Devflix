@@ -70,10 +70,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Intégrer l'animation dans le site
 let b = document.body;
-let corps = document.querySelector('.corps')
+let corps = document.querySelector('.corps');
+let deb = document.getElementById('video');
 
 
 window.addEventListener('load', () => {
   let elDel = b.removeChild(corps);
+  deb.classList.add("video-f");
+  
 });
 

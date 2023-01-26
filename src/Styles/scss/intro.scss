@@ -9,13 +9,19 @@
   @import url("https://fonts.googleapis.com/css?family=Roboto:700,900");
   
   .corps{
-    opacity :0.4 ;
-    background-size: 100vw 100vh;
+    background: radial-gradient(#fff, #aaa);
+    background-size: 200vw 200vh;
     overflow: hidden;
     padding-top: 40vh;
+    width: 200%;
+    height: 200%;
+    
+  
    
    
   }
+
+
   
   .txt {
     text-align: center;
