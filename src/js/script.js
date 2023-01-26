@@ -65,9 +65,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Intégrer l'animation dans le site
-const animation = document.querySelector('.corps');
+const b = document.body;
+let corps = document.querySelector('.corps')
+
 
 window.addEventListener('load', () => {
-  animation.classList.add("fondu-out");
+  let elDel = b.removeChild(corps);
 });
-//(window).load(function(){ jQuery(".corps").fadeOut("200"); });
+

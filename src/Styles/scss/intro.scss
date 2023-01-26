@@ -14,9 +14,7 @@
     overflow: hidden;
     padding-top: 40vh;
     position: absolute;
-    z-index: 4;
-    width: 100vh;
-    height: 100vh;
+   
   }
   
   .txt {
@@ -65,5 +63,5 @@
   }
 
   .fondu-out {
-    visibility : hidden;
+  display: none;
   }
