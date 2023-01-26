@@ -164,15 +164,16 @@ header{
   height: 100vh;
 }
 
-#video{
+.video-f{
   position: absolute;
-  top :0;
+  z-index : 2;
+  top : 0;
   width: 100vw;
 }
 
 video {
   width: 100%;
-  opacity: 0.5;
+ 
 }
 
 // #texte_video{
