@@ -78,7 +78,7 @@ let all = document.querySelector('.has-text-light');
 window.addEventListener('load', () => {
   let elDel = b.removeChild(corps);
   deb.classList.add("video-f");
-  all.style.visibility = "visible";
-  all.style.transition ="0.3s linear,opacity 0.3s linear";
+  all.style.display ="block";
+  
 });
 
