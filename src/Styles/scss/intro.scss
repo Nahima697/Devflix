@@ -11,14 +11,15 @@
   .corps{
     background: radial-gradient(#fff, #aaa);
     background-size: 100vw 100vh;
-    overflow: hidden;
     padding-top: 40vh;
-    
-  
-
-  
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
   }
-
 
   
   .txt {
@@ -63,6 +64,8 @@
   
     100% {
       opacity: 0;
+      transition : opacity 0.3s linear;
     }
   }
+  
  

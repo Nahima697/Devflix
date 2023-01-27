@@ -20,6 +20,13 @@ body{
     scroll-behavior: smooth;
     background-color: #303036;
    
+   
+}
+
+
+
+.has-text-light {
+  display : none;
 }
 
 .align-centered{
@@ -70,9 +77,6 @@ button:hover{
   transition: 0.4s;
 }
 
-.has-text-light {
-  visibility : hidden;
-}
 
 
 // ** RUBRIQUE HEADER ** 
