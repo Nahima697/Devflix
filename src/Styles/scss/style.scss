@@ -19,6 +19,14 @@ body{
     padding: 0;
     scroll-behavior: smooth;
     background-color: #303036;
+   
+   
+}
+
+
+
+.has-text-light {
+  visibility : hidden;
 }
 
 .align-centered{
@@ -68,7 +76,6 @@ button:hover{
   transform: scale(1.2);
   transition: 0.4s;
 }
-
 
 
 
@@ -164,14 +171,16 @@ header{
   height: 100vh;
 }
 
-#video{
+.video-f{
   position: absolute;
+  z-index : 2;
+  top : 0;
   width: 100vw;
 }
 
 video {
   width: 100%;
-  opacity: 0.5;
+ 
 }
 
 // #texte_video{
@@ -193,7 +202,7 @@ video {
 // CARROUSEL
 
 #slider{
-  top: 68%;
+  top: 50%;
   position: relative;
   z-index: 3;
   background-color: hsl(0 100% 100% / 0);
@@ -267,12 +276,12 @@ video {
 
 // SECTION PROJET
 
-.projet{
+.projet {
   background-color:$couleur_secondaire;
 }
 
 
-.bordure{
+.bordure {
   border: 10px solid #303036;
   border-radius: 20px;
   box-shadow: 9px 10px 17px 0px rgba(0,0,0,0.75);
@@ -322,3 +331,4 @@ footer{
   //   }
   // }
 }
+

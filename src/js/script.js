@@ -63,3 +63,18 @@ document.addEventListener('DOMContentLoaded', () => {
     sidenav.classList.remove("active");
   }
 });
+
+// Intégrer l'animation dans le site
+let b = document.body;
+let devflix = document.querySelector('.devflix');
+let deb = document.getElementById('video');
+let all = document.querySelector('.has-text-light');
+
+
+window.addEventListener('load', () => {
+  let elDel = b.removeChild(devflix);
+  deb.classList.add("video-f");
+  all.style.visibility ="visible";
+  
+});
+
