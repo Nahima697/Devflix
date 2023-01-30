@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Intégrer l'animation dans le site
 let b = document.body;
-let corps = document.querySelector('.corps');
+let corps = document.querySelector('.devflix');
 let deb = document.getElementById('video');
 let all = document.querySelector('.has-text-light');
 
