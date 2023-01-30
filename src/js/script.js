@@ -75,7 +75,6 @@ window.addEventListener('load', () => {
   let elDel = b.removeChild(corps);
   deb.classList.add("video-f");
   all.style.visibility ="visible";
-  all.style.transition =" opacity 0.4 ease-in"
   
 });
 
