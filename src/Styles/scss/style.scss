@@ -183,20 +183,6 @@ video {
  
 }
 
-// #texte_video{
-//   position: absolute;
-//   top: 40%;
-//   // height: 100%;
-//     // display: flex;
-//     // justify-content: center;
-//     // align-items: center;
-//     h1{
-//       position: absolute;
-//       top: 40%;
-//       z-index: 2;
-//     }
-// }
-
 
 
 // CARROUSEL
@@ -209,10 +195,7 @@ video {
   img{
     border-radius: 10px;
   }
-  // img:hover{
-  //   transform: scale(150%);
-  // }
-  
+  display: flex;
 }
 #slider2{
   top: 65%;

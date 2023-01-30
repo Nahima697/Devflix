@@ -8,21 +8,17 @@
     <link rel="stylesheet" href="./src/Styles/css/style.css">
     <link rel="stylesheet" href="./src/Styles/css/intro.css">
     <title>DEVFLIX</title>
+    
 </head>
     <!-- Animation DEFLIX-->
     
     <body>
-        <div class="corps">
+        <div class="devflix">
             <div  class="txt" contenteditable="true">
+                <audio autoplay src= "./src/audio/Sonnerie_Netflix_-_Sonnerie_MP3_gratuite_-.mp3" type = "audio/mp3">
+                </audio>
                 DEVFLIX
-    
-        <audio autoplay src= "./src/audio/Sonnerie_Netflix_-_Sonnerie_MP3_gratuite_-.mp3" type = "audio/mp3">
-        
-            
-           
-        </audio>
-    </div>
-
+         </div>
          
         </div>
 <div class="has-text-light">
@@ -53,7 +49,7 @@
         <!-- SECTION VIDEO -->
         <section id="section_video" class="has-background-dark pb-6">
             <div id="video" >
-                <video playsinline autoplay muted loop poster="">
+                <video playsinline autoplay loop poster="">
                     <source src="./src/videos/salamandev.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -836,8 +832,9 @@
         <a href="mailto:salamandevv@gmail.com"> Contactez-nous </a>
     </footer>
 
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+    <script src="./src/js/script.js"></script>
     <script>
         bulmaCarousel.attach('#slider', {
             slidesToScroll: 1,
@@ -860,7 +857,8 @@
             // effect: translate
         });
     </script>
-    <script src="./src/js/script.js"></script>
+
+    
 </body>
 
 </html>

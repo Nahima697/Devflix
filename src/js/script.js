@@ -70,13 +70,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Intégrer l'animation dans le site
 let b = document.body;
-let corps = document.querySelector('.corps');
+let devflix = document.querySelector('.devflix');
 let deb = document.getElementById('video');
 let all = document.querySelector('.has-text-light');
 
 
 window.addEventListener('load', () => {
-  let elDel = b.removeChild(corps);
+  let elDel = b.removeChild(devflix);
   deb.classList.add("video-f");
   all.style.display ="block";
   
